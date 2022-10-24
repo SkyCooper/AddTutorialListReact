@@ -32,15 +32,15 @@ Project(folder)
 │     └── index.html
 ├── src
 │    ├── components
-│    │       ├── Picture.jsx
+│    │       ├── AddTutorial.jsx
+│    │       ├── EditTutorial.jsx
+│    │       ├── TutorialList.jsx
 │    ├── pages
-│    │       ├── Homepage.jsx
-│    ├── helper
-│    │       └── data.js
-│    ├── styles
-│    │       ├── style.css
+│    │       ├── Home.jsx
 │    ├── App.js
 │    ├── index.js
+│    ├── index.css
+│    ├── tutor.gif
 └── package.json
 ```
 
