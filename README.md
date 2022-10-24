@@ -59,7 +59,7 @@ You can see the visual representation of the website above.
 
 ## Resources
 
-- 🔥 You can use [`this API`](https://axios-example-cw.herokuapp.com/api) for your own work.
+- 🔥 You can use [`this API`](https://axios-example-cw.herokuapp.com/api/tutorials) for your own work.
 
 ## Support
 Open an Issue, I will check it a soon as possible 👀
