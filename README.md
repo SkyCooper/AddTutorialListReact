@@ -8,7 +8,7 @@
 
 ## Description
 
-Project aims to create an app using React.
+Project aims to create an Tutorial List app using React.
 
 ## Learning Outcomes
 
