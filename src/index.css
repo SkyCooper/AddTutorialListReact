@@ -1,7 +1,13 @@
-body{
-  background-color: antiquewhite;
-}
-
-h1{
-  color: blue;
+body {
+  /* background-image: url(./dactilo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white; */
+  background: linear-gradient(
+    8deg,
+    rgb(227, 195, 56) 29%,
+    rgb(231, 229, 149) 68%
+  );
+  height: 100vh;
 }

@@ -48,7 +48,7 @@ const AddTutorial = ({ getTutorials }) => {
 
   return (
     <div className="container text-center mt-4">
-      <h1 className="display-6 text-danger">Add Your Tutorial</h1>
+      <h1 className="display-6 text-danger fw-bolder">Add Your Tutorial 📄</h1>
       <form onSubmit={handleSubmit}>
         {/* form içinde submit butonuna basıldığında yani -->onSubmit olunca yapılacak işlemleri tanımladık. */}
         <div className="mb-3">

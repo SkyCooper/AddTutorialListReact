@@ -47,7 +47,7 @@ const TutorialList = ({ tutor, getTutorials }) => {
             <th scope="col">Title</th>
             <th scope="col">Description</th>
             <th scope="col" className="text-center">
-              Edit
+              Edit & Delete
             </th>
           </tr>
         </thead>
@@ -67,7 +67,7 @@ const TutorialList = ({ tutor, getTutorials }) => {
                     data-bs-target="#edit-modal"
                     // edit modal componentine bağlantı yaptı.
                     // çalışması için index.html bootstrap script eklemek gerekli
-                    className="me-2 text-warning"
+                    className="me-2 text-success"
                     onClick={() => setEdititem(item)}
                   />
                   <AiFillDelete
