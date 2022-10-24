@@ -1,10 +1,10 @@
 # Project : Template
 
-## Check The Live Website ➡️ [Live Website](https://skycooper.github.io)
+## Check The Live Website ➡️ [Live Website](https://cooper-tutorial-list.vercel.app/)
 
 ## Visualization of the Website
 
-![Form](./gallery.gif)
+![Form](./tutor.gif)
 
 ## Description
 
