@@ -9,9 +9,9 @@ const TutorialList = ({ tutor, getTutorials }) => {
 
   //! DELETE (CRUD-Delete)
   const deleteTutorial = async (id) => {
-    const url = "https://axios-example-cw.herokuapp.com/api/tutorials";
+    const url = "http://127.0.0.1:8000/tutorials";
     try {
-      await axios.delete(`${url}/${id}`);
+      await axios.delete(`${url}/${id}/`);
       // id vermez isek var olan bütün verileri siler,
       // url ve id yi beraber yazabilmek için backtick içinde yazıyoruz.
       // axios yazarsak Get yapar default olarak, onun için başına delete yazıyoruz.
@@ -25,12 +25,12 @@ const TutorialList = ({ tutor, getTutorials }) => {
 
   //! PUT (CRUD-Update)
   //! PUT: Whole Update, PATCH: Partially Update
-  const editTutorial = async ( id, title, description ) => {
+  const editTutorial = async (id, title, description) => {
     // hangi tutorial değişecek--> id, başlık ne olacak-->title, açıklama ne olacak--> description
     // const { id, title, description } = item;
-    const url = "https://axios-example-cw.herokuapp.com/api/tutorials";
+    const url = "http://127.0.0.1:8000/tutorials";
     try {
-      await axios.put(`${url}/${id}`, { title, description });
+      await axios.put(`${url}/${id}/`, { title, description });
       // 2 parametre alıyor, url(id eklnemiş olarak) ve değişecek key/value objesi
     } catch (error) {
       console.log(error);

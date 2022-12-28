@@ -22,12 +22,12 @@ const AddTutorial = ({ getTutorials }) => {
     // girilen statelerden oluşturulan yeni obje addTutorial'a parametre olarak atandı.
     setTitle("");
     setDescription("");
-// preventDefault ile sayfanın refresh olması engellendi fakat formu temizlemek için içini yukarıdaki gibi boşalttık.
+    // preventDefault ile sayfanın refresh olması engellendi fakat formu temizlemek için içini yukarıdaki gibi boşalttık.
   };
 
   //! POST - CRUD (Create)
   const addTutorial = async (newTutor) => {
-    const url = "https://axios-example-cw.herokuapp.com/api/tutorials";
+    const url = "http://127.0.0.1:8000/tutorials/";
     try {
       await axios.post(url, newTutor);
       // sadece axios yazarsak get işlemi yapar, onun için başına POST yazıyoruz.
