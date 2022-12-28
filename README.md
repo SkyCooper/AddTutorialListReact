@@ -1,14 +1,14 @@
 # Project : Template
 
-## Check The Live Website ➡️ [Live Website](https://skycooper.github.io)
+## Check The Live Website ➡️ [Live Website](https://cooper-tutorial-list.vercel.app/)
 
 ## Visualization of the Website
 
-![Form](./gallery.gif)
+![Form](./tutor.gif)
 
 ## Description
 
-Project aims to create an app using React.
+Project aims to create an Tutorial List app using React.
 
 ## Learning Outcomes
 
@@ -32,15 +32,15 @@ Project(folder)
 │     └── index.html
 ├── src
 │    ├── components
-│    │       ├── Picture.jsx
+│    │       ├── AddTutorial.jsx
+│    │       ├── EditTutorial.jsx
+│    │       ├── TutorialList.jsx
 │    ├── pages
-│    │       ├── Homepage.jsx
-│    ├── helper
-│    │       └── data.js
-│    ├── styles
-│    │       ├── style.css
+│    │       ├── Home.jsx
 │    ├── App.js
 │    ├── index.js
+│    ├── index.css
+│    ├── tutor.gif
 └── package.json
 ```
 
@@ -53,15 +53,13 @@ You can see the visual representation of the website above.
 
 - Step 1: Create React App using `npx create-react-app project-name`
 
-- Step 2: For images you can use [Images](./src/helper/data.js).
+- Step 2: Push your application into your own public repo on Github
 
-- Step 3: Push your application into your own public repo on Github
-
-- Step 4: Add project gif to your project and README.md file.
+- Step 3: Add project gif to your project and README.md file.
 
 ## Resources
 
-- 🔥 You can use [`data.js`](./src/helper/data.js) for your own work.
+- 🔥 You can use [`this API`](https://axios-example-cw.herokuapp.com/api/tutorials) for your own work.
 
 ## Support
 Open an Issue, I will check it a soon as possible 👀
