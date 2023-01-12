@@ -9,7 +9,7 @@ const TutorialList = ({ tutor, getTutorials }) => {
 
   //! DELETE (CRUD-Delete)
   const deleteTutorial = async (id) => {
-    const url = "http://127.0.0.1:8000/tutorials";
+    const url = "http://coopersky.pythonanywhere.com/tutorials";
     try {
       await axios.delete(`${url}/${id}/`);
       // id vermez isek var olan bütün verileri siler,
@@ -28,7 +28,7 @@ const TutorialList = ({ tutor, getTutorials }) => {
   const editTutorial = async (id, title, description) => {
     // hangi tutorial değişecek--> id, başlık ne olacak-->title, açıklama ne olacak--> description
     // const { id, title, description } = item;
-    const url = "http://127.0.0.1:8000/tutorials";
+    const url = "http://coopersky.pythonanywhere.com/tutorials";
     try {
       await axios.put(`${url}/${id}/`, { title, description });
       // 2 parametre alıyor, url(id eklnemiş olarak) ve değişecek key/value objesi

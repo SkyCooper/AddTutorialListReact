@@ -27,7 +27,7 @@ const AddTutorial = ({ getTutorials }) => {
 
   //! POST - CRUD (Create)
   const addTutorial = async (newTutor) => {
-    const url = "http://127.0.0.1:8000/tutorials/";
+    const url = "http://coopersky.pythonanywhere.com/tutorials/";
     try {
       await axios.post(url, newTutor);
       // sadece axios yazarsak get işlemi yapar, onun için başına POST yazıyoruz.

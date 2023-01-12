@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const Home = () => {
   const [tutorials, setTutorials] = useState([]);
 
-  const url = "http://127.0.0.1:8000/tutorials/"; // django
+  const url = "http://coopersky.pythonanywhere.com/tutorials/"; // django
   // const url = "https://tutorials-api-cw.herokuapp.com/api/tutorials";  //noah hoca
   // const url = "https://cw-axios-example.herokuapp.com/api/tutorials";  //çift sayılar.
   // readme içerisinde 3 tane API url var, 1 tanesini kullan.
